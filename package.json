@@ -1,0 +1,28 @@
+{
+  "name": "javascripturlshortener",
+  "version": "1.0.0",
+  "description": "Learning how to create a url shortener and how they work! [(following Youtube...)](https://www.youtube.com/watch?v=SLpUKAGnm-g)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielxKuek/JavascriptUrlShortener.git"
+  },
+  "author": "GabrielxKuek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielxKuek/JavascriptUrlShortener/issues"
+  },
+  "homepage": "https://github.com/GabrielxKuek/JavascriptUrlShortener#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
