@@ -21,7 +21,7 @@
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "mongoose": "^8.2.0",
-    "shortid": "^2.2.16"
+    "nanoid": "^5.0.6"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"

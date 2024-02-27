@@ -1,5 +1,8 @@
 const mongoose = require('mongoose')
-const shortId = require('shortid')
+async function generateShortId() {
+    const { nanoid } = await import('nanoid');
+    return nanoid(); // Generates and returns the ID
+  }
 
 const shortUrlSchema = new mongoose.Schema({
     full: {
@@ -10,7 +13,7 @@ const shortUrlSchema = new mongoose.Schema({
     short: {
         type: String,
         required: true,
-        default: shortId.generate()
+        default: generateShortId()
         // shortid library creates a unique short identifier
     },
 
